@@ -1,0 +1,48 @@
+.head{
+    background-color:darkorange;
+    height: 100px;
+    width: 100%;
+}
+.head li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin: 25px;
+    font-size: xx-large;
+    color: rgba(98, 81, 173, 0.897);
+}
+.head ul{
+    margin-top: 50px;
+    line-height: 100px;
+}
+.body{
+   background-color:aliceblue ;
+   height: 1000px;
+   width: 100%;
+   text-align: center;
+}
+.foot{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.boxdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 600px;
+    background-color: rgba(224, 212, 45, 0.445);
+    margin: 25px;
+    transition-duration: 1s;
+
+}
+.box img{
+    margin-top: 70px;
+}
+.box:hover{
+    transform: scale(1.2);
+}
